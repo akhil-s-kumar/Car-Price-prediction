@@ -16,13 +16,34 @@ cd Car-Price-prediction
 
 ## Step 3
 
+### Install Virtualenv
+```bash
+pip install virtualenv
+```
+### Create new Virtualenv
+```bash
+python3 -m venv <virtual-environment-name>
+```
+### Activate Virtualenv
+```bash
+cd env/scripts
+```
+```bash
+activate
+```
+```bash
+cd ../../
+```
+
+## Step 4
+
 ### Install dependencies
 
 ```bash
 pip install requirements.txt
 ```
 
-## Step 4
+## Step 5
 
 ### Run application
 
@@ -30,7 +51,7 @@ pip install requirements.txt
 app.py
 ```
 
-## Step 5
+## Step 6
 
 ### Application will be running at
 
